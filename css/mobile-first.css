@@ -1,0 +1,173 @@
+/* Variables */
+
+:root {
+
+    /*colores*/
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --light-gray: hsl(0, 0%, 95%);
+    /*Parrafos*/
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--light-gray);
+}
+
+main {
+    margin-bottom: 30px;
+}
+
+.sedan-section--container {
+    width: 90%;
+    height: auto;
+    background-color: var(--Bright-orange);
+    border-radius: 5px 5px 0 0;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px 30px;
+}
+
+.sedan-icon {
+    display: inline-block;
+    width: 50px;
+    height: 31px;
+    background-image: url(/images/icon-sedans.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.sedan-section--title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 3.0rem;
+    color: var(--light-gray);
+    margin-bottom: 30px;
+}
+
+.sedan-section--body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: var(--transparent-white);
+    font-size: 1.0rem;
+    line-height: 2.0rem;
+    margin-bottom: 30px;
+}
+
+.sedan-button {
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    border-style: none;
+    color: var(--Bright-orange);
+    background-color: var(--light-gray);
+
+}
+
+.suv-section--container {
+    width: 90%;
+    height: auto;
+    background-color: var(--Dark-cyan);
+    margin: 0 auto;
+    padding: 30px 30px;
+}
+
+.suv-section--container span {
+    display: inline-block;
+    width: 50px;
+    height: 31px;
+    background-image: url(/images/icon-suvs.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.suv-section--container h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 3.0rem;
+    color: var(--light-gray);
+    margin-bottom: 30px;
+}
+
+.suv-section--container p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: var(--transparent-white);
+    font-size: 1.0rem;
+    line-height: 2.0rem;
+    margin-bottom: 30px;
+}
+
+.suv-section--container button {
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    border-style: none;
+    color: var(--Dark-cyan);
+    background-color: var(--light-gray);
+}
+
+.luxury-section--container {
+    width: 90%;
+    height: auto;
+    background-color: var(--Very-dark-cyan);
+    border-radius: 0 0 5px 5px;
+    margin: 0 auto;
+    padding: 30px 30px;
+}
+
+.luxury-section--container span {
+    display: inline-block;
+    width: 50px;
+    height: 31px;
+    background-image: url(/images/icon-luxury.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.luxury-section--container h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 3.0rem;
+    color: var(--light-gray);
+    margin-bottom: 30px;
+}
+
+.luxury-section--container p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: var(--transparent-white);
+    font-size: 1.0rem;
+    line-height: 2.0rem;
+    margin-bottom: 30px;
+}
+
+.luxury-section--container button {
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    border-style: none;
+    color: var(--Very-dark-cyan);
+    background-color: var(--light-gray);
+}

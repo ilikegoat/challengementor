@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+
+    /*colores*/
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --light-gray: hsl(0, 0%, 95%);
+    /*Parrafos*/
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+
+}
+
+.main-cars--container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 100px 400px;
+    margin: 50px auto;
+    background-color: var(--light-gray);
+}
+
+.sedan-section--container {
+    margin: 0;
+    border-radius: 5px 0 0 5px;
+    min-width: 200px
+}
+
+.suv-section--container {
+    min-width: 200px
+}
+
+.luxury-section--container {
+    border-radius: 0 5px 5px 0;
+    margin-right: auto;
+    min-width: 200px
+}
